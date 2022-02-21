@@ -16,7 +16,7 @@ let boolean2 = false; // -
 let infinity = Infinity; // بی نهایت و بزرگ تر از هر عددی
 
 
-let nan = NaN; // نتیجه  محاصبات اشتباه
+let nan = NaN; // نتیجه  محاصبات اشتباه (not a number)
 
 
 let Null = null; // تهی
