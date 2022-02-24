@@ -21,3 +21,10 @@ console.log(family.includes('pour'));//=> true
 console.log(Name.slice(4,8));//=> mmad
 
 console.log(family.substring(1,5));//=> arim
+
+console.log('mohammad-karimpour-18'.split('-'));//=> ['mohammad','karimpour','18']
+
+console.log(eval('12 * 30'));//=> 360
+
+console.log(Name.replace('m','s'));//=> sohammad
+
