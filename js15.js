@@ -1,12 +1,23 @@
-//حلقه ها
 
 /*
-for (mabda;shart;code ezafi) {
-    code
-    
+while (شرط) {
+    دستورات
 }*/
 
+let num = 0
 
-for(let num = 0; num < 10; num++){
-     console.log(num);
+while (num < 100) {
+    console.log(num);
+    num++
+}
+
+//do while
+//حد اقل یک بار اجرا میشود که در دوو نوشته میشود
+
+do{
+    num++
+}
+while(num == -1 ){
+    console.log(num);
+    num++
 }

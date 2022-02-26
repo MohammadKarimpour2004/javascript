@@ -1,23 +1,8 @@
+// array
+//برای ذخیره کردن چند نوع و چند تعداد از دیتا
 
-/*
-while (شرط) {
-    دستورات
-}*/
+let ar = ['mohammad',12,true]
+let arr = new Array('mohammad',false,56)
 
-let num = 0
-
-while (num < 100) {
-    console.log(num);
-    num++
-}
-
-//do while
-//حد اقل یک بار اجرا میشود که در دوو نوشته میشود
-
-do{
-    num++
-}
-while(num == -1 ){
-    console.log(num);
-    num++
-}
+console.log(ar);
+console.log(arr);
