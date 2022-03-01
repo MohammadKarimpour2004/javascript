@@ -19,3 +19,5 @@
 19: متد forEach
 20: متد includes
 21: متد some
+22: متد every
+23: متد findIndex
