@@ -25,3 +25,9 @@ console.log(arr.sort());//برای مرتب کردن ارایه بر اساس ح
 
 console.log(arr.reverse());//برعکس کردن ارایه
 
+console.log(Array.isArray(arr));//true => اگر ارایه باشد تروو را برمی گرداند
+
+console.log(too.indexOf(3));// 2
+
+console.log(arr.slice(1,4));//18 15
+
