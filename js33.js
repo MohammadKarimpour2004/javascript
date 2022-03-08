@@ -5,15 +5,17 @@ let btn = document.querySelector('#btn')
 
 <button onClick='texts()'>text</button>
 
-<button onClick='onkeypress()'>text</button>
+<button onkeypress='texts()'>text</button>
 
-<button onClick='onkeyup()'>text</button>
+<button onkeyup='texts()'>text</button>
 
-<button onClick='onfocus()'>text</button>
+<button onkeydown='texts()'>text</button>
+
+<button onfocus='texts()'>text</button>
 (onblur != onfocus)
-<button onClick='onblur()'>text</button>
+<button onblur='texts()'>text</button>
 
-<button onClick='ondblclick()'>text</button>
+<button ondblclick='texts()'>text</button>
 
 */
 
