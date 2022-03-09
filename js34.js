@@ -4,6 +4,10 @@ h1elim.addEventListener('click',()=>{
     console.log('mohammad');
 })
 
+h1elim.addEventListener('submit',()=>{
+    console.log('mohammad');
+})
+
 h1elim.addEventListener('keypress',()=>{
     console.log('mohammad');
 })
@@ -32,3 +36,13 @@ h1elim.addEventListener('change',()=>{
     console.log('mohammad');
 })
 
+
+
+///////////////////////////////////////////
+
+//برای به دست اوردن اطلاعات ایونت میتوانید از این روش استفاده کنید
+h1elim.addEventListener('click',(event)=>{
+
+    event.preventDefault()// aption for submit event and more...
+    console.log(event);
+})

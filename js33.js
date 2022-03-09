@@ -5,6 +5,8 @@ let btn = document.querySelector('#btn')
 
 <button onClick='texts()'>text</button>
 
+<button onsubmit='texts()'>text</button>
+
 <button onkeypress='texts()'>text</button>
 
 <button onkeyup='texts()'>text</button>
