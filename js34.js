@@ -28,3 +28,7 @@ h1elim.addEventListener('dblclick',()=>{
     console.log('mohammad');
 })
 
+h1elim.addEventListener('change',()=>{
+    console.log('mohammad');
+})
+

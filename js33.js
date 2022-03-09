@@ -11,6 +11,8 @@ let btn = document.querySelector('#btn')
 
 <button onkeydown='texts()'>text</button>
 
+<button onchange='texts()'>text</button>
+
 <button onfocus='texts()'>text</button>
 (onblur != onfocus)
 <button onblur='texts()'>text</button>
