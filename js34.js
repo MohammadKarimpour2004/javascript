@@ -4,6 +4,10 @@ h1elim.addEventListener('click',()=>{
     console.log('mohammad');
 })
 
+h1elim.addEventListener('contextmenu',()=>{
+    console.log('mohammad');
+})
+
 h1elim.addEventListener('submit',()=>{
     console.log('mohammad');
 })
@@ -33,6 +37,18 @@ h1elim.addEventListener('dblclick',()=>{
 })
 
 h1elim.addEventListener('change',()=>{
+    console.log('mohammad');
+})
+
+h1elim.addEventListener('copy',()=>{
+    console.log('mohammad');
+})
+
+h1elim.addEventListener('cut',()=>{
+    console.log('mohammad');
+})
+
+h1elim.addEventListener('paste',()=>{
     console.log('mohammad');
 })
 

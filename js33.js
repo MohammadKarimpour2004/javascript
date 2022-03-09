@@ -5,6 +5,8 @@ let btn = document.querySelector('#btn')
 
 <button onClick='texts()'>text</button>
 
+<button oncontextmenu='texts()'>text</button>
+
 <button onsubmit='texts()'>text</button>
 
 <button onkeypress='texts()'>text</button>
@@ -21,6 +23,11 @@ let btn = document.querySelector('#btn')
 
 <button ondblclick='texts()'>text</button>
 
+<button oncopy='texts()'>text</button>
+
+<button onpaste='texts()'>text</button>
+
+<button oncut='texts()'>text</button>
 */
 
 
