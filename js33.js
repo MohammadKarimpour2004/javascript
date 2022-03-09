@@ -28,6 +28,19 @@ let btn = document.querySelector('#btn')
 <button onpaste='texts()'>text</button>
 
 <button oncut='texts()'>text</button>
+
+<button onload='texts()'>text</button>
+
+<button onmousemove='texts()'>text</button>
+
+<button onselect='texts()'>text</button>
+
+<button ontouchmove='texts()'>text</button>
+
+<button ontouchend='texts()'>text</button>
+
+<button ontouchstart='texts()'>text</button>
+
 */
 
 

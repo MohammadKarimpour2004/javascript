@@ -52,6 +52,29 @@ h1elim.addEventListener('paste',()=>{
     console.log('mohammad');
 })
 
+h1elim.addEventListener('load',()=>{
+    console.log('mohammad');
+})
+
+h1elim.addEventListener('mousemove',()=>{
+    console.log('mohammad');
+})
+
+h1elim.addEventListener('select',()=>{
+    console.log('mohammad');
+})
+
+h1elim.addEventListener('touchmove',()=>{
+    console.log('mohammad');
+})
+
+h1elim.addEventListener('touchend',()=>{
+    console.log('mohammad');
+})
+
+h1elim.addEventListener('touchstart',()=>{
+    console.log('mohammad');
+})
 
 
 ///////////////////////////////////////////
@@ -61,4 +84,14 @@ h1elim.addEventListener('click',(event)=>{
 
     event.preventDefault()// aption for submit event and more...
     console.log(event);
+})
+
+
+
+//////////////////////////////////////////////////
+
+//برای حذف کردن یک ایونت
+
+h1elim.removeEventListener('click',()=>{
+    console.log('removed');
 })
