@@ -41,6 +41,8 @@ let btn = document.querySelector('#btn')
 
 <button ontouchstart='texts()'>text</button>
 
+<button onscroll='texts()'>text</button>
+
 */
 
 

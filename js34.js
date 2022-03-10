@@ -76,6 +76,10 @@ h1elim.addEventListener('touchstart',()=>{
     console.log('mohammad');
 })
 
+h1elim.addEventListener('scroll',()=>{
+    console.log('mohammad');
+})
+
 
 ///////////////////////////////////////////
 
