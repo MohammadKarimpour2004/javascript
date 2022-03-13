@@ -14,3 +14,8 @@ const objects = {
 console.log(objects['family']);//karimpour
 
 console.log(objects.name);// mohammad
+
+
+// برای حذف کردن یک ایتم از ابجکت
+
+delete objects.family
